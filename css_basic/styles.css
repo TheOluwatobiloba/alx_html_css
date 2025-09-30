@@ -15,3 +15,12 @@ main aside{
     flex: 1;
     overflow-y: auto;
 }
+table, th, td{
+    border: 1px solid grey;
+    width: 300px;
+    text-align: center;
+    padding: 2px 0 2px 0;
+}
+header{
+    background-color: rgb(151, 151, 151);
+}
