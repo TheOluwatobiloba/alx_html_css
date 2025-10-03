@@ -1,0 +1,1 @@
+This project is for the HTML and CSS advanced. I was provided with the basic HTML code, and the images file. My task is to add images where necessary and apply styling to make it look good just like the figma reference.
