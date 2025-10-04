@@ -1,0 +1,138 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+/* Source Sans Pro */
+@font-face {
+  font-family: 'Source Sans Pro';
+  src: url('fonts/source-sans-pro/SourceSansPro-Regular.otf') format('opentype');
+  font-weight: 400;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Source Sans Pro';
+  src: url('fonts/source-sans-pro/SourceSansPro-Bold.otf') format('opentype');
+  font-weight: 700;
+  font-style: normal;
+}
+
+/* Spin Cycle */
+@font-face {
+  font-family: 'Spin Cycle';
+  src: url('fonts/spin-cycle-ot/spincycle_ot.otf') format('opentype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Spin Cycle 3D';
+  src: url('fonts/spin-cycle-ot/spincycle_3d_ot.otf') format('opentype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+header{
+    background-image: url(Images/Object.png);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: flex;
+    flex-direction: column;
+    padding: 0 150px 100px 150px;
+}
+header nav{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    padding: 30px 0 30px 0;
+}
+header nav ul{
+    display: flex;
+    flex-direction: row;
+    gap: 40px;
+}
+header nav ul li{
+    display: inline;
+}
+header nav ul li a{
+    color: white;
+    text-decoration: none;
+    font-family: 'Source Sans Pro', sans-serif;
+}
+header section .get_schooled{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 150px 0 150px 0;
+}
+header section .get_schooled h1{
+    font-family: 'Source Sans Pro', sans-serif;
+    color: white;
+    font-size: 6em;
+    letter-spacing: .025em;
+}
+header section .get_schooled span{
+    color: white;
+    font-family: 'Source Sans Pro', sans-serif;
+}
+header section .get_schooled .desc{
+    display: flex;
+    flex-direction: row;
+    gap: 35px;
+    padding: 0;
+    margin: 0 0 20px 0;
+}
+header section .get_schooled button{
+    background-color: #C271FF;
+    color: white;
+    font-family: 'Source Sans Pro', sans-serif;
+    border: none;
+    outline: none;
+    padding: 15px 20px;
+    border-radius: 50px;
+    box-shadow: -2px 2px black;
+}
+.learn_from_the_pros{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.learn_from_the_pros h2{
+    font-family: 'Source Sans Pro', sans-serif;
+    font-weight: 100;
+    color: white;
+    margin: 0 0 100px 0;
+}
+.learn_from_the_pros h2 span{
+    color: #C271FF;
+}
+.learn_from_the_pros .pros{
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 100%;
+}
+.pros img{
+    border-radius: 50%;
+    width: 150px;
+}
+.pros div{
+    text-align: center;
+}
+.pros div h3{
+    color: white;
+    font-family: 'Source Sans Pro', sans-serif;
+    font-weight: 200;
+    margin: 10px 10px;
+}
+.pros div p{
+    margin: -20px 0 0 0;
+    color: white;
+    font-style: italic;
+    opacity: 0.75;
+}
