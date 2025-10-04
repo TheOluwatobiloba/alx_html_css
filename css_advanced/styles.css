@@ -136,3 +136,34 @@ header section .get_schooled button{
     font-style: italic;
     opacity: 0.75;
 }
+main .quote{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #C271FF;
+    padding: 100px 150px;
+}
+.quote_image img{
+    width: 200px;
+}
+.blockquote  blockquote{
+    font-family: 'Source Sans Pro', sans-serif;
+    color: white;
+    font-size: 22px;
+    font-weight: 200;
+}
+.blockquote h3{
+    font-family: 'Source Sans Pro', sans-serif;
+    font-size: 24px;
+    font-weight: 400;
+    color: white;
+    margin: 18px 0 10px 0;
+}
+.blockquote p{
+    font-family: 'Source Sans Pro', sans-serif;
+    color: white;
+    font-size: 22px;
+    font-style: italic;
+}
