@@ -227,3 +227,62 @@ main .quote{
     font-family: 'Source Sans Pro', sans-serif;
     color: #C271FF;
 }
+.membership{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    padding: 100px 150px;
+    background-color: black;
+}
+.membership h2{
+    color: white;
+    font-family: 'Source Sans Pro', sans-serif;
+    font-weight: 100;
+    font-size: 1.5em;
+    margin: 0 0 50px 0;
+}
+.membership span{
+    color: #C271FF;
+}
+.mem_content{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+}
+.mem_content div{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    width: 200px;
+    margin: 0 0 70px 0;
+}
+.mem_content div h3{
+    font-family: 'Source Sans Pro', sans-serif;
+    color: white;
+    font-weight: 100;
+    font-size: 1em;
+    margin: 10px 0 10px 0;
+}
+.mem_content div p{
+    font-family: 'Source Sans Pro', sans-serif;
+    color: white;
+    opacity: 0.5;
+    font-weight: 100;
+    font-size: 0.75em;
+    margin: 10px 0 0 0;
+}
+.mem_content div img{
+    margin: 0 0 20px 0;
+}
+.membership button{
+    outline: none;
+    border: none;
+    background-color: #C271FF;
+    color: white;
+    font-size: 0.7em;
+    padding: 15px 20px;
+    border-radius: 50px;
+}
