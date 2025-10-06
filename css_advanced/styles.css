@@ -286,3 +286,85 @@ main .quote{
     padding: 15px 20px;
     border-radius: 50px;
 }
+.faq{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 100px 150px;
+}
+.faq h2{
+    font-family: 'Source Sans Pr', sans-serif;
+    color: black;
+    font-weight: normal;
+    font-size: 3em;
+    margin: 0 0 100px 0;
+
+}
+.questions{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 100%;
+    gap: 50px;
+}
+.qrow{
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 100%;
+}
+.qrow div{
+    width: 400px;
+    display: flex;
+    align-items: start;
+    flex-direction: column;
+    gap: 30px;
+}
+.qrow div h3{
+    font-family: 'Source Sans Pro', sans-serif;
+    font-weight: 600;
+    font-size: 1em;
+}
+.qrow div p{
+    font-family: 'Source Sans Pro', sans-serif;
+    font-weight: normal;
+    font-size: 0.8em;
+    color: black;
+    opacity: 0.6;
+}
+footer{
+    background-color: black;
+    padding: 50px 150px;
+}
+footer section{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 80px;
+}
+.imgnicons{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+}
+.fa-brands{
+    color: white;
+    font-size: 1.3em;
+}
+.imgnicons div{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 20px;
+}
+footer section p{
+    color: white;
+    font-family: 'Source Sans Pro', sans-serif;
+    font-weight: normal;
+    font-size: 0.9em;
+    opacity: 0.5;
+}
