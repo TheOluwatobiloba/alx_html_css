@@ -167,3 +167,63 @@ main .quote{
     font-size: 22px;
     font-style: italic;
 }
+.video_list{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 100px 150px;
+}
+.video_list h2{
+    font-family: 'Source Sans Pro', sans-serif;
+    font-weight: 100;
+    margin: 0 0 80px 0;
+}
+.video_list h2 span{
+    font-weight: 600;
+    color: #C271FF;
+}
+.videos{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+}
+.video{
+    width: 250px;
+}
+.video img{
+    width: 250px;
+}
+.stars{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+.rating{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    width: 250px;
+}
+.fa-star{
+    font-size: 10px;
+}
+.videos h3{
+    font-family: 'Source Sans Pro', sans-serif;
+    font-weight: 600;
+    font-size: 1em;
+}
+.videos p{
+    font-family: 'Source Sans Pro', sans-serif;
+    font-weight: 100;
+    font-size: 0.8em;
+    opacity: 0.5;
+    line-height: 1.9em;
+    margin: 5px 0 0 0;
+}
+.video_author_name h4{
+    font-family: 'Source Sans Pro', sans-serif;
+    color: #C271FF;
+}
