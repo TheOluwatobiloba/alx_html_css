@@ -1,0 +1,175 @@
+/* === Local fonts to be used === */
+
+/* === Source Sans Pro === */
+@font-face {
+  font-family: 'Source Sans Pro';
+  src: url('../assets/fonts/source-sans-pro/SourceSansPro-Regular.otf') format('opentype');
+  font-weight: 400;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Source Sans Pro';
+  src: url('../assets/fonts/source-sans-pro/SourceSansPro-Bold.otf') format('opentype');
+  font-weight: 700;
+  font-style: normal;
+}
+
+/* === Spin Cycle === */
+@font-face {
+  font-family: 'Spin Cycle';
+  src: url('../assets/fonts/spin-cycle-ot/spincycle_ot.otf') format('opentype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Spin Cycle 3D';
+  src: url('../assets/fonts/spin-cycle-ot/spincycle_3d_ot.otf') format('opentype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+
+/* === Colors === */
+:root {
+    --color-primary: #FFFFFF;
+    --color-accent: #FF6565;
+    --color-background: #FFFFFF;
+    --color-text: #071629;
+}
+
+/* === Global Styles === */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Source Sans Pro', sans-serif;
+}
+
+body{
+  width: 100%;
+  max-width: 500px;
+}
+
+/* === Header style - Mobile first === */
+header{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    background-size: cover;
+    background-position: center;
+    padding: 30px 20px;
+    height: 100dvh;
+    color: black;
+    text-align: center;
+    background-repeat: no-repeat;
+    background-image: url("../assets/images/hero/headphones_hero_1.jpg");
+    background-color: var(--color-background);
+}
+
+header nav{
+  display: flex;
+  align-items: center;
+  justify-content: start;
+  flex-direction: row;
+  width: 100%;
+  gap: 65px;
+}
+
+header nav i{
+  font-size: 24px;
+  cursor: pointer;
+}
+
+header nav i{
+  color: var(--color-primary);
+  font-size: 20px;
+}
+
+.headphoneLogo{
+  width: 160px;
+}
+
+/* Navigation links - hidden on mobile */
+.nav-links{
+  list-style: none;
+  display: none;
+}
+
+.heroSection{
+  margin-top: 265px;
+  margin-bottom: auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.heroSection h2{
+  font-family: 'Source Sans Pro', sans-serif;
+  font-size: 32px;
+  font-weight: 600;
+  text-align: center;
+  color: var(--color-primary);
+}
+
+.heroSection h3{
+  font-family: 'Source Sans Pro', sans-serif;
+  font-size: 16px;
+  font-weight: 600;
+  text-align: center;
+  color: var(--color-primary);
+  margin: 5px 0;
+  width: 280px;
+}
+
+.heroSection button{
+  margin-top: 20px;
+  padding: 10px 20px;
+  background-color: var(--color-accent);
+  color: var(--color-primary);
+  border: none;
+  border-radius: 25px;
+  font-size: 14px;
+  font-weight: 600;
+  cursor: pointer;
+}
+
+.heroSection button:hover{
+  background-color: #ff7b7b;
+  opacity: 0.9;
+}
+
+.heroSection p{
+  margin-top: 65px;
+  font-size: 16px;
+  color: var(--color-primary);
+  font-weight: normal;
+}
+
+/* === What we do section === */
+.whatWeDo{
+  padding: 110px 25px;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  background-color: var(--color-background);
+}
+
+.whatWeDo h2{
+  font-family: 'Source Sans Pro', sans-serif;
+  font-size: 32px;
+  font-weight: 600;
+  color: var(--color-text);
+  margin-bottom: 40px;
+}
+
+.whatWeDo p{
+  font-family: 'Source Sans Pro', sans-serif;
+  font-size: 16px;
+  color: var(--color-text);
+  margin-bottom: 40px;
+  text-align: center;
+}
