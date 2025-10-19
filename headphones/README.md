@@ -26,5 +26,5 @@ Each task adds new sections or features:
 ## How to Run
 1. Clone this repository  
    ```bash
-   git clone https://github.com/<your-username>/alx_html_css.git
+   git clone https://github.com/TheOluwatobiloba/alx_html_css.git
    cd alx_html_css/headphones
